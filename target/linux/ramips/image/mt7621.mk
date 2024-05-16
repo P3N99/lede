@@ -776,7 +776,7 @@ ifneq ($(CONFIG_TARGET_ROOTFS_INITRAMFS),)
   ARTIFACT/initramfs-factory.bin := append-image-stage initramfs-kernel.bin | \
 	haier-sim_wr1800k-factory
 endif
-  DEVICE_PACKAGES := kmod-mt7915-firmware
+  DEVICE_PACKAGES := kmod-mt7915-firmware uboot-envtools
 endef
 
 define Device/haier_har-20s2u1
