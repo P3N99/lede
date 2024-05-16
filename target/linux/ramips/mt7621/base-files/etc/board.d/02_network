@@ -22,7 +22,9 @@ ramips_setup_interfaces()
 		ucidef_set_interface_lan "lan"
 		;;
 	ampedwireless,ally-r1900k|\
+	haier,har-20s2u1|\
 	hiwifi,hc5962|\
+	sim,simax1800t|\
 	xiaomi,mi-router-3-pro)
 		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3" "wan"
 		;;
