@@ -82,6 +82,7 @@ platform_do_upgrade() {
 	dlink,dir-2640-a1|\
 	dlink,dir-2660-a1|\
 	dlink,dir-853-a3|\
+ 	haier,har-20s2u1|\
 	hiwifi,hc5962|\
 	jcg,q20|\
 	linksys,e5600|\
@@ -101,6 +102,7 @@ platform_do_upgrade() {
 	netis,wf2881|\
 	raisecom,msg1500-x-00|\
 	sercomm,na502|\
+ 	sim,simax1800t|\
 	xiaomi,mi-router-3g|\
 	xiaomi,mi-router-3-pro|\
 	xiaomi,mi-router-4|\
